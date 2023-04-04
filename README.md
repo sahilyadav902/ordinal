@@ -1,38 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Ordinal
 
-## Getting Started
+(Responsive Next.js Ordinal Template Design)
 
-First, run the development server:
+![Ordinal](https://i.ibb.co/bN43S1J/Ordinal.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Link to Live Project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> []()
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Setting up the project locally
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Clone the project through the terminal:
+  > git clone https://github.com/sahilyadav902/ordinal.git
+- Navigate to the project directory:
+  > cd ordinal
+- Install dependencies
+  > npm install
+- Run the development build
+  > npm run dev
+- Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Techstack Used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Next.js
+- React.js
+- Supabase (Online File Storage)
+- Tailwind (CSS Framework)
+- DaisyUI (Tailwind CSS Components)
+- React Icons (npm package)
+- react-loading-skeleton (npm package)
+- uuid (npm package)
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+- index.js directs to the homepage containing the project display
+- styles directory contains a global.css file containing some custom styling for the components
+- components directory contains reusable or isolated components that are used inside the project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features Implemented
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Responsive design for all device sizes
+- File upload functionality through Browse and Drag & Drop
+- Unique folder names for each file using uuid npm package
+- Upload error logging in console
+- Highlighting effect on file upload box
+- File size and type restriction with warning
+- Header and Footer with external linking
+- File change functionality resets to original screen
+- Custom range slider with instant value updates and ability to change the maximum range
+- Tooltip for user query
+- Full screen Modal Overlay on Submit
+- Skeleton Screen for showing the upload of data
