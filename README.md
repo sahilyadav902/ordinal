@@ -6,7 +6,7 @@
 
 ## Link to Live Project
 
-> []()
+> [https://ordinal.netlify.app/](https://ordinal.netlify.app/)
 
 ## Setting up the project locally
 
