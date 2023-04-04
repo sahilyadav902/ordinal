@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Cardinal</title>
+        <title>Ordinal</title>
       </Head>
       <div className="-mr-24 sm:mr-0">
         {/* Header for Page */}
