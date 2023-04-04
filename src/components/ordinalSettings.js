@@ -82,7 +82,7 @@ export default function OrdinalSettings({ setFile, loading }) {
                     <>
                       <div className="opacity-[0.4]">Total fee size</div>
                       <div className="">
-                        {numf.format(rangeValue * 1.5)} sats
+                        {numf.format(Math.floor(rangeValue * 1.5))} sats
                       </div>
                     </>
                   )}
